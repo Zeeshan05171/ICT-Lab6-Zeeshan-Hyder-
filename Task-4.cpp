@@ -7,6 +7,6 @@ int main()
         cout << "\n"
              << multi << "\n\t\t\t" << z;
     }
-
+    
     return 0;
 }
