@@ -1,5 +1,5 @@
 # ICT-Lab6-Zeeshan-Hyder-
-ICT Lab report
+Programming Practice.
 <br>
 <b>in this reprostries i make my casual practice of my c++ programming. </b>
 
