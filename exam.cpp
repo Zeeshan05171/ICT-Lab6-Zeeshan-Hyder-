@@ -26,7 +26,7 @@ else if (av>=40 && av<60){
 else {
     cout<<"Grade F";
 }
-*/
+
 char choice;
 cout<<"Enter  B for Birayni=150 \n"
     <<"C for Chiken =200 \n"
@@ -56,7 +56,22 @@ switch(choice){
     default:
         cout<<"Invalid";
         break;
+}*/
+
+int positiveCount = 0, negativeCount = 0;
+int num;
+for (int i=1; i<=5; i++){
+    cout<<"Enter number: ";
+    cin>>num;
+    if (num>=0){
+        positiveCount++;
+    }
+    else {
+        negativeCount++;
+    } 
 }
+cout<<"Positive numbers: "<<positiveCount<<"\n";
+cout<<"Negative numbers: "<<negativeCount<<"\n";
 
 return 0;
 }
